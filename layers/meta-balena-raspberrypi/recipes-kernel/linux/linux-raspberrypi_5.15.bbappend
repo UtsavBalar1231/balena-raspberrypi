@@ -7,6 +7,12 @@ SRC_URI:append:fincm3 = " \
 	file://0007-overlays-Add-spyfly.dts.patch \
 "
 
+# file://0001-wm8960-rpi-cm4.patch
+# file://0001-sound-soc-Upgrade-bcm2835-i2s-and-wm8960-to-rpi-6.6..patch
+SRC_URI:append:raspberrypicm4-ioboard = " \
+  file://0001-sound-soc-Add-seeed-voicecard-module.patch \
+"
+
 SRC_URI:append:raspberrypi4-superhub = " \
 	file://0001-Add-gpio-wdt-DT-overlay-for-Phoenix-Board.patch \
 	file://0002-Add-infineon-tpm-DT-overlay-for-Phoenix-Board.patch \
