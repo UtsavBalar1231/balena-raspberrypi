@@ -26,3 +26,7 @@
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
 	branch = master
+[submodule "meta-seeed-voicecard"]
+	path = layers/meta-seeed-voicecard
+	url = https://github.com/UtsavBalar1231/meta-seeed-voicecard
+	branch = master
